@@ -1,0 +1,1663 @@
+fileFormatVersion: 2
+guid: 1f7c797c0032d4445a93018714c22f99
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: warion_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 378
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ade72e86cea9514aac5fad5012d32e7
+      internalID: -1468038137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 378
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604e25d136d716d4d9168ca92097f195
+      internalID: 641601350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 378
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0fbbce0930f064d8540fe7ac3c9676
+      internalID: 1658217302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_3
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 378
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ffc894d33edad4b849b54a6c957636
+      internalID: 156910413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 378
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544bf96ea86a2fb4dbee802fe6e21d28
+      internalID: 258525668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_5
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 378
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47803dcc4f640dd4eb3e0a97d26fcb93
+      internalID: 1619280571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_6
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 378
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa43a1d7143ccef46aa8153570a00300
+      internalID: 1361562475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cdc7db9df28fd24b8e800f84405bec4
+      internalID: 543332724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_8
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 336
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0537feccad1f4b94dad7723c0f069254
+      internalID: -1783117741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_9
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 336
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f639bfe68565447bb9e949640b9f51
+      internalID: 169025728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_10
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 336
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d73fc7ca70b34d4ca7db74f9206ffb9
+      internalID: -1591369807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_11
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 336
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60984e73611e8144a4ad4bd42ae80b5
+      internalID: 1544532266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_12
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 336
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9bd008f69ac8d243bfafb836262901a
+      internalID: -910934026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_13
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 336
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853dc65aeecfa21449088931a8192329
+      internalID: 1105789704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 294
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6cb60024e004ef40bf2460af20bd4f2
+      internalID: -1064361143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_15
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 294
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1ec7ec7dd0c7645a8ca56c0f78fbbb
+      internalID: -897018321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_16
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 294
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 341d3e5d32ded204f83e1e3c47f08cc8
+      internalID: 1941305035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_17
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 294
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6265513d2905200429bb94ee8e1f603c
+      internalID: 870317742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_18
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 294
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def944c29ac6ce9428414de502903e72
+      internalID: 147743386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_19
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 294
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2488c96cab635744a8c256c293a60a12
+      internalID: -655566885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_20
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 294
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b4287ba21841840aaffe49b90405ad
+      internalID: -2055796121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 252
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23a587d075adf34b90a6f11e17ef47e
+      internalID: -1253470865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_22
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 252
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254368591c657dd42ae3ec71abb1ba59
+      internalID: -1365614765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_23
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 252
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab5437295d81ca4fada4bba55938f44
+      internalID: -790947997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_24
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 252
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75fc14d183e704b4eb11d1c1cc82ab04
+      internalID: -521301063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_25
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 252
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951635ec2f815ac44a09392c1036e997
+      internalID: -874087838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_26
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 252
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b90ae0d57530bf4fb6e60429167c9ce
+      internalID: 1430976511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_27
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 252
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b91cd5c2058b046ab4674500aea12f
+      internalID: 1382181178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc30feb2b2dc2f34b99f805edb26beba
+      internalID: -1719509392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_29
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 210
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1bdfcafb8173c648853f19f7fc48566
+      internalID: 850746797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_30
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 210
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f856256203871574aa7ff652490086a8
+      internalID: -1651524019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_31
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 210
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54dfde07d8cfa614184b2e43364ae794
+      internalID: -535687142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_32
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 210
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b462e370bab14e04aa2562fc996047e3
+      internalID: -1760648513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_33
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 210
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98a339e4cbc088488b38b68b38ba630
+      internalID: -748575301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_34
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 210
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35b6dc027bcd3644861326dbab05d8e
+      internalID: 2109637585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2159d57cf128b084c97a6de87aa3bc51
+      internalID: 839720366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_36
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 168
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3a6dcc4dfba314ab39c24f351f80a9
+      internalID: -1911815875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_37
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 168
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31824db01f5eb04192af57fbde7d098
+      internalID: -1595627596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_38
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 168
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d732859c4dae58488a148a897ea954d
+      internalID: -1818748475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_39
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 168
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2439b75e0c7cbcb418290b6d51ca450f
+      internalID: 1552811682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_40
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 168
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab6c8633e7d6fb418b41751b83cef2a
+      internalID: -1545708800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_41
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 168
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dda8e88caf4ca740b1cbbecc3660310
+      internalID: -2131097436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64fb9e2c11cd6547adf911764be71f7
+      internalID: -773965657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_43
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 126
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 002751f95a1173543bb338e670b93853
+      internalID: 295631661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_44
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 126
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ddc850173a656c42b242600e7364d0d
+      internalID: 560971154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_45
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 126
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252aca8b10755954c9e78c04ebdd33c2
+      internalID: 1483858089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_46
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 126
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b95154ff0545242b26252e6ee3e401
+      internalID: -720041265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_47
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 126
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87218a4e05de7044b8bccd566fc24c6f
+      internalID: -930843215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_48
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 126
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd32cc3cdc29e7645b447520e3316ff6
+      internalID: -2040072890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 84
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7793542e70472d74ba63b1deea0d1f40
+      internalID: 1154286437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_50
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 84
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0590488c42712524c9fd0e1cfeaed67c
+      internalID: -2049054409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_51
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 84
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fcba32a1a880464bbef1675bbbf8501
+      internalID: -1230677507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_52
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 84
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15dc281bd27c6fb4999d515c4942eda2
+      internalID: -1304260031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_53
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 84
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40148da0a8973994c950c9c5423098f0
+      internalID: 1457537494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_54
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 84
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f980ad253e3784aa6aedb69b134e2f
+      internalID: -1719626844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_55
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 84
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a72188a4b9be5949bce68821926e0bf
+      internalID: -335214713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 42
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2a91329071396419cdd1cab56f05a8
+      internalID: -1664184185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_57
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 42
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91049cda76ab0f4419c9f2c7be722993
+      internalID: -760074300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_58
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 42
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8a0c30040b1bf4c8bad6ebca5982d6
+      internalID: 460614592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_59
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 42
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31d230cca54a0e4d8b5c116d1b85f30
+      internalID: -426621474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_60
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 42
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f651c4562e0682d478397f0f631a1c68
+      internalID: -506403468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_61
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 42
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1899dca8d3d278744a8a375110bb411e
+      internalID: 1189419461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_62
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 42
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50510a6665a01f8479cf03640fb8a918
+      internalID: -1584455556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb0ee4d542c2aa43818b8e58be05d23
+      internalID: -1116222663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_64
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5168aa350dccc964aba79bac467dd1e6
+      internalID: -1083499537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_65
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af64d2bfc9e69d4db8365c9b7ce4dd2
+      internalID: -2097170390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_66
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29b5b739a652ad4bb0d46b89ed2aa6c
+      internalID: -1814715317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_67
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba98e4d6df74fd4eab1269884d79013
+      internalID: -1656861712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_68
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d7c8baa9052de4ea669e382ea5dc8b
+      internalID: -501565078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warion_69
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 36.42857
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6560ba99d659b941b381f2bf339706b
+      internalID: 960939209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      warion_0: -1468038137
+      warion_1: 641601350
+      warion_10: -1591369807
+      warion_11: 1544532266
+      warion_12: -910934026
+      warion_13: 1105789704
+      warion_14: -1064361143
+      warion_15: -897018321
+      warion_16: 1941305035
+      warion_17: 870317742
+      warion_18: 147743386
+      warion_19: -655566885
+      warion_2: 1658217302
+      warion_20: -2055796121
+      warion_21: -1253470865
+      warion_22: -1365614765
+      warion_23: -790947997
+      warion_24: -521301063
+      warion_25: -874087838
+      warion_26: 1430976511
+      warion_27: 1382181178
+      warion_28: -1719509392
+      warion_29: 850746797
+      warion_3: 156910413
+      warion_30: -1651524019
+      warion_31: -535687142
+      warion_32: -1760648513
+      warion_33: -748575301
+      warion_34: 2109637585
+      warion_35: 839720366
+      warion_36: -1911815875
+      warion_37: -1595627596
+      warion_38: -1818748475
+      warion_39: 1552811682
+      warion_4: 258525668
+      warion_40: -1545708800
+      warion_41: -2131097436
+      warion_42: -773965657
+      warion_43: 295631661
+      warion_44: 560971154
+      warion_45: 1483858089
+      warion_46: -720041265
+      warion_47: -930843215
+      warion_48: -2040072890
+      warion_49: 1154286437
+      warion_5: 1619280571
+      warion_50: -2049054409
+      warion_51: -1230677507
+      warion_52: -1304260031
+      warion_53: 1457537494
+      warion_54: -1719626844
+      warion_55: -335214713
+      warion_56: -1664184185
+      warion_57: -760074300
+      warion_58: 460614592
+      warion_59: -426621474
+      warion_6: 1361562475
+      warion_60: -506403468
+      warion_61: 1189419461
+      warion_62: -1584455556
+      warion_63: -1116222663
+      warion_64: -1083499537
+      warion_65: -2097170390
+      warion_66: -1814715317
+      warion_67: -1656861712
+      warion_68: -501565078
+      warion_69: 960939209
+      warion_7: 543332724
+      warion_8: -1783117741
+      warion_9: 169025728
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
