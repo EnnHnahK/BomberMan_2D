@@ -69,13 +69,13 @@ public class EnemyMovement : MonoBehaviour
         float targetAngle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         targetAngle += 90;
         if (targetAngle == 0 || targetAngle == 360)
-            anim.SetTrigger("down");
+            anim.SetTrigger("Down");
         else if (targetAngle == 90)
-            anim.SetTrigger("right");
+            anim.SetTrigger("Right");
         else if (targetAngle == 180)
-            anim.SetTrigger("up");
+            anim.SetTrigger("Up");
         else if (targetAngle == 270)
-            anim.SetTrigger("left"); 
+            anim.SetTrigger("Left"); 
     }
     IEnumerator CheckIfBlocked()
     {
