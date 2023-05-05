@@ -1,15 +1,15 @@
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 5.0f;
     public Vector2 direction = Vector2.down;
 
-    public PlayerAnimator spriderRenderUp;
-    public PlayerAnimator spriderRenderRight;
-    public PlayerAnimator spriderRenderDown;
-    public PlayerAnimator spriderRenderLeft;
-    private PlayerAnimator activesprider;
+    public AnimatorController spriderRenderUp;
+    public AnimatorController spriderRenderRight;
+    public AnimatorController spriderRenderDown;
+    public AnimatorController spriderRenderLeft;
+    private AnimatorController activesprider;
     public new Rigidbody2D rigidbody { get; private set; }
     public void Awake()
     {
@@ -51,7 +51,7 @@ public class PlayerMovement : MonoBehaviour
         rigidbody.MovePosition(position + translation);
     }
     // Huong
-    private void setDirection(Vector2 newDirection, PlayerAnimator spriteRender)
+    private void setDirection(Vector2 newDirection, AnimatorController spriteRender)
     {
         direction = newDirection;
         spriderRenderUp.enabled = spriteRender == spriderRenderUp;
@@ -60,5 +60,21 @@ public class PlayerMovement : MonoBehaviour
         spriderRenderLeft.enabled = spriteRender == spriderRenderLeft;
         activesprider = spriteRender;
         activesprider.idle = direction == Vector2.zero;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.GetComponent<EnemyMovement>())
+            Damage();
+        else if (collision.gameObject.GetComponent<Door>())
+        {
+            Debug.Log("Next Level");
+            GameManager.instance.GameStatus(true);
+        }
+    }
+    public void Damage()
+    {
+        GameManager.instance.GameStatus(false);
+        Destroy(gameObject);
     }
 }

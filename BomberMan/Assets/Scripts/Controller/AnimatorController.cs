@@ -1,13 +1,14 @@
 using UnityEngine;
 
-public class PlayerAnimator : MonoBehaviour
+public class AnimatorController : MonoBehaviour
 {
     private SpriteRenderer spriteRenderer;
-    public Sprite[] animation;
-    public Sprite IDsprite;
+
+    public Sprite idleSprite;
+    public Sprite[] animations;
 
     public float animationTime = 0.25f;
-    public int animationFrame;
+    private int animationFrame;
     public bool loop = true;
     public bool idle = true;
     private void Awake()
@@ -31,18 +32,18 @@ public class PlayerAnimator : MonoBehaviour
     private void NextFrame()
     {
         animationFrame++;
-        if (loop && animationFrame >= animation.Length)
+        if (loop && animationFrame >= animations.Length)
         {
 
             animationFrame = 0;
         }
         if (idle)
         {
-            spriteRenderer.sprite = IDsprite;
+            spriteRenderer.sprite = idleSprite;
         }
-        else if (animationFrame >= 0 && animationFrame < animation.Length)
+        else if (animationFrame >= 0 && animationFrame < animations.Length)
         {
-            spriteRenderer.sprite = animation[animationFrame];
+            spriteRenderer.sprite = animations[animationFrame];
         }
     }
 }
