@@ -212,7 +212,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   idleSprite: {fileID: -340367282, guid: 747582f06c2b1624aa25dcb4d16cf67a, type: 3}
-  animations: []
+  animations:
+  - {fileID: -340367282, guid: 747582f06c2b1624aa25dcb4d16cf67a, type: 3}
+  - {fileID: 1395131168, guid: 747582f06c2b1624aa25dcb4d16cf67a, type: 3}
+  - {fileID: 2119318670, guid: 747582f06c2b1624aa25dcb4d16cf67a, type: 3}
+  - {fileID: -111898336, guid: 747582f06c2b1624aa25dcb4d16cf67a, type: 3}
   animationTime: 0.25
   loop: 1
   idle: 1
@@ -314,7 +318,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   idleSprite: {fileID: -1585894502, guid: 747582f06c2b1624aa25dcb4d16cf67a, type: 3}
-  animations: []
+  animations:
+  - {fileID: -1585894502, guid: 747582f06c2b1624aa25dcb4d16cf67a, type: 3}
+  - {fileID: 1729284976, guid: 747582f06c2b1624aa25dcb4d16cf67a, type: 3}
+  - {fileID: -2092414529, guid: 747582f06c2b1624aa25dcb4d16cf67a, type: 3}
+  - {fileID: -1370781742, guid: 747582f06c2b1624aa25dcb4d16cf67a, type: 3}
   animationTime: 0.25
   loop: 1
   idle: 1
@@ -416,7 +424,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   idleSprite: {fileID: -1113004908, guid: 747582f06c2b1624aa25dcb4d16cf67a, type: 3}
-  animations: []
+  animations:
+  - {fileID: -1113004908, guid: 747582f06c2b1624aa25dcb4d16cf67a, type: 3}
+  - {fileID: -894404764, guid: 747582f06c2b1624aa25dcb4d16cf67a, type: 3}
+  - {fileID: 1112716135, guid: 747582f06c2b1624aa25dcb4d16cf67a, type: 3}
+  - {fileID: -2034288044, guid: 747582f06c2b1624aa25dcb4d16cf67a, type: 3}
   animationTime: 0.1
   loop: 1
   idle: 1
@@ -518,7 +530,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   idleSprite: {fileID: 1831380916, guid: 747582f06c2b1624aa25dcb4d16cf67a, type: 3}
-  animations: []
+  animations:
+  - {fileID: 1831380916, guid: 747582f06c2b1624aa25dcb4d16cf67a, type: 3}
+  - {fileID: 1795143250, guid: 747582f06c2b1624aa25dcb4d16cf67a, type: 3}
+  - {fileID: 1266673182, guid: 747582f06c2b1624aa25dcb4d16cf67a, type: 3}
+  - {fileID: -249963073, guid: 747582f06c2b1624aa25dcb4d16cf67a, type: 3}
   animationTime: 0.25
   loop: 1
   idle: 1

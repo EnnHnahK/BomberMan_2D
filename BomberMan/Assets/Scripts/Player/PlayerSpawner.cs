@@ -1,3 +1,4 @@
+using Cinemachine;
 using UnityEngine;
 public interface IPlayerSpawner
 {
@@ -9,6 +10,8 @@ public class PlayerSpawner : IPlayerSpawner
 {
     private GameObject playerPrefab;
     private GameObject playerRef;
+    public CinemachineVirtualCamera myCinemachine;
+
     ~PlayerSpawner()
     {
         GameManager.instance.restartGame -= ResetPlayer;

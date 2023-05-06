@@ -4,12 +4,13 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     [Tooltip("Grid size Should odd order")]
-    //[SerializeField]
-    //private Vector2Int _gridSize = new Vector2Int(Random.Range(10,25), Random.Range(10, 25));
-    //private Vector2Int _gridSize = new Vector2Int(25, 25);
+    [SerializeField]
     private Vector2Int _gridSize;
 
-    public GameObject gameObject;
+    public Transform transformPlayer;
+    public GameObject playerObject;
+    private float timeLoading = 5f;
+    public GameObject levelCanvas;
 
     [SerializeField]
     private GameObject brickPrefab;
@@ -18,8 +19,7 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private GameObject doorPrefab;
 
-    [SerializeField]
-    private CinemachineVirtualCamera camFollowPlayer;
+    public CinemachineVirtualCamera camFollowPlayer;
 
     private int camCount = 0;
     public uint enemyCount;
@@ -47,14 +47,16 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        _gridSize = new Vector2Int(Random.Range(10, 25), Random.Range(10, 25));
+        if (_gridSize == Vector2Int.zero)
+        {
+            _gridSize = new Vector2Int(Random.Range(10, 25), Random.Range(10, 25));
+        }
         if (_instance != null)
             Destroy(gameObject);
         else
         {
             _instance = this; 
         }
-        camFollowPlayer = GetComponent<CinemachineVirtualCamera>();
     }
     void Start()
     {
@@ -63,17 +65,24 @@ public class GameManager : MonoBehaviour
         ServiceLocator.GetService<IMapGenerator>().InitializeLevelController(_gridSize, brickPrefab, blockPrefab, doorPrefab);
         ServiceLocator.GetService<IPlayerSpawner>().InitializePlayerSpawner(playerPrefab);
         ServiceLocator.GetService<IEnemySpawner>().InitializeEnemySpawner(enemyPrefab, enemyCount);
-        
+       // camFollowPlayer = GetComponent<CinemachineVirtualCamera>();
     }
     public void Update()
     {
-        gameObject = GameObject.FindWithTag("Player");
-        if(gameObject != null && camCount == 0)
+        if (timeLoading <= 0)
         {
-            camCount = 1;
-            Debug.Log("run");
-            camFollowPlayer.ResolveFollow(gameObject.transform);
+            playerObject = GameObject.FindWithTag("Player");
+            transformPlayer = playerObject.transform;
+            if (transformPlayer != null && camCount == 0)
+            {
+                camCount = 1;
+                Debug.Log("run");
+                camFollowPlayer.m_Follow = transformPlayer;
+                levelCanvas.SetActive(false);
+            }
+
         }
+        timeLoading -= Time.deltaTime;
     }
     public void GameReady()
     {
