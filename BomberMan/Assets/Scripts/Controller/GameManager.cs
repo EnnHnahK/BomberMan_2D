@@ -1,4 +1,5 @@
 using Cinemachine;
+using TMPro;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -11,6 +12,7 @@ public class GameManager : MonoBehaviour
     public GameObject playerObject;
     private float timeLoading = 5f;
     public GameObject levelCanvas;
+    public TextMeshProUGUI textCanvas;
 
     [SerializeField]
     private GameObject brickPrefab;
@@ -18,6 +20,8 @@ public class GameManager : MonoBehaviour
     private GameObject blockPrefab;
     [SerializeField]
     private GameObject doorPrefab;
+    [SerializeField]
+    private GameObject floorPrefab;
 
     public CinemachineVirtualCamera camFollowPlayer;
 
@@ -62,27 +66,32 @@ public class GameManager : MonoBehaviour
     {
         ServiceLocator.InitializeContainer();
         GameReady();
-        ServiceLocator.GetService<IMapGenerator>().InitializeLevelController(_gridSize, brickPrefab, blockPrefab, doorPrefab);
+        ServiceLocator.GetService<IMapGenerator>().InitializeLevelController(_gridSize, brickPrefab, blockPrefab, doorPrefab, floorPrefab);
         ServiceLocator.GetService<IPlayerSpawner>().InitializePlayerSpawner(playerPrefab);
         ServiceLocator.GetService<IEnemySpawner>().InitializeEnemySpawner(enemyPrefab, enemyCount);
-       // camFollowPlayer = GetComponent<CinemachineVirtualCamera>();
     }
     public void Update()
     {
         if (timeLoading <= 0)
         {
             playerObject = GameObject.FindWithTag("Player");
-            transformPlayer = playerObject.transform;
-            if (transformPlayer != null && camCount == 0)
+            if (playerObject == null)
             {
+                camFollowPlayer.m_Follow = null;
+                GameOver();
+            }
+            if (playerObject != null && camCount == 0)
+            {
+                transformPlayer = playerObject.transform;
                 camCount = 1;
-                Debug.Log("run");
                 camFollowPlayer.m_Follow = transformPlayer;
                 levelCanvas.SetActive(false);
             }
 
         }
+
         timeLoading -= Time.deltaTime;
+
     }
     public void GameReady()
     {
@@ -95,6 +104,11 @@ public class GameManager : MonoBehaviour
             restartGame?.Invoke();
             ServiceLocator.GetService<IMapGenerator>().GenerateMap();
         }));
+    }
+    void GameOver()
+    {
+        textCanvas.text = "Game Over";
+        levelCanvas.SetActive(true);
     }
     public void GameStatus(bool isWon)
     {

@@ -1,9 +1,11 @@
+using System.Runtime.InteropServices.WindowsRuntime;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : MonoBehaviour,IDamage
 {
     public float moveSpeed = 5.0f;
     public Vector2 direction = Vector2.down;
+    public bool isAlive = true;
 
     public AnimatorController spriderRenderUp;
     public AnimatorController spriderRenderRight;
@@ -74,7 +76,9 @@ public class PlayerController : MonoBehaviour
     }
     public void Damage()
     {
+        isAlive = false;
         GameManager.instance.GameStatus(false);
         Destroy(gameObject);
     }
+  
 }

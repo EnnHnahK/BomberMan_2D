@@ -28,8 +28,14 @@ public class MapProcessing : IMapProcessing
     public GameObject GetCellAtPosition(Vector2Int _pos)
     {
         GameObject gameObject = null;
-        if (mapGenerator.mapCells[_pos.x, _pos.y])
+        if (mapGenerator.mapCells[_pos.x, _pos.y]) { 
             gameObject = mapGenerator.mapCells[_pos.x, _pos.y];
+            GameObject tempObject = GameObject.FindWithTag("Floor");
+            if (gameObject.tag == tempObject.tag) {
+                return null;
+            }
+        }
+
 
         return gameObject;
     }

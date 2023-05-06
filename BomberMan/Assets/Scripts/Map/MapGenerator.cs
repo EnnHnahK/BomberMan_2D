@@ -1,11 +1,12 @@
 using System.Collections.Generic;
+using System.Xml.Serialization;
 using UnityEngine;
 
 public interface IMapGenerator
 {
     GameObject door { get; }
     GameObject[,] mapCells { get; set; }
-    void InitializeLevelController(Vector2Int mapSize, GameObject _brick, GameObject _block, GameObject _doorPrefab);
+    void InitializeLevelController(Vector2Int mapSize, GameObject _brick, GameObject _block, GameObject _doorPrefab, GameObject _floorPrefab);
     void GenerateMap();
 }
 public class MapGenerator : IMapGenerator
@@ -13,6 +14,7 @@ public class MapGenerator : IMapGenerator
     private GameObject brickPrefab;
     private GameObject blockPrefab;
     private GameObject doorPrefab;
+    private GameObject floorPrefab;
     private int mapWidth = 0;
     private int mapHeight = 0;
     private const int edgeValue = 2;
@@ -41,18 +43,20 @@ public class MapGenerator : IMapGenerator
         mapParent.name = "MapParent";
         InitializeMap();
         GenerateBorder();
+        GenerateFloor();
         GenerateBlocks();
         SpawnPlayer();
         GenerateBricks();
         SpawnEnemies();
         ServiceLocator.GetService<IMapProcessing>().InitializeGridHandler();
     }
-    public void InitializeLevelController(Vector2Int mapSize, GameObject _brickPrefab, GameObject _blockPrefab, GameObject _doorPrefab)
+    public void InitializeLevelController(Vector2Int mapSize, GameObject _brickPrefab, GameObject _blockPrefab, GameObject _doorPrefab, GameObject _floorPrefab)
     {
         mapWidth = mapSize.x;
         mapHeight = mapSize.y;
         brickPrefab = _brickPrefab;
         blockPrefab = _blockPrefab;
+        floorPrefab = _floorPrefab;
         playerSpawner = ServiceLocator.GetService<IPlayerSpawner>();
         enemySpawner = ServiceLocator.GetService<IEnemySpawner>();
         doorPrefab = _doorPrefab;
@@ -122,7 +126,17 @@ public class MapGenerator : IMapGenerator
             }
         }
     }
-
+    private void GenerateFloor(){ 
+        for(int i = 1; i <= mapWidth; i++)
+        {
+            for(int j = 1; j <= mapHeight; j++)
+            {
+                Vector2 cellPosition = new Vector2(i, j);
+                mapCells[i, j] = MonoBehaviour.Instantiate(floorPrefab, cellPosition, Quaternion.identity, mapParent.transform);
+                //emptyCells.Remove(cellPosition);
+            }
+        }
+    }
     private void SpawnPlayer()
     {
         Vector2 playerSpawnPos = new Vector2(1, mapHeight);
