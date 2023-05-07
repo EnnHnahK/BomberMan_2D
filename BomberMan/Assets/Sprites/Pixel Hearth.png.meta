@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 03be9ac927b355e40b7a4ed760826e77
+guid: 78fd22fe29edecd45aeca8b4f11208b1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -105,181 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GUI 1_0
+      name: Pixel Hearth_0
       rect:
         serializedVersion: 2
-        x: 317
-        y: 20
-        width: 438
-        height: 341
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 69127fc90f700404c802175c7a819d26
-      internalID: 597972213
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GUI 1_1
-      rect:
-        serializedVersion: 2
-        x: 758
-        y: 155
-        width: 204
-        height: 244
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7e9d435d6e0ba304584944d8f7eda260
-      internalID: 260346995
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GUI 1_2
-      rect:
-        serializedVersion: 2
-        x: 765
-        y: 32
-        width: 193
-        height: 81
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3f9e9884b24e4fd428cd616dc62f702a
-      internalID: -605757030
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GUI 1_3
-      rect:
-        serializedVersion: 2
-        x: 170
-        y: 184
-        width: 44
-        height: 37
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dc7fef23b9d33eb4591a5a71fa67d63f
-      internalID: 1436313084
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GUI 1_4
-      rect:
-        serializedVersion: 2
-        x: 238
-        y: 37
-        width: 66
-        height: 66
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f5961e4c556991f46ad7c30b381b1e88
-      internalID: 341598283
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GUI 1_5
-      rect:
-        serializedVersion: 2
-        x: 892
-        y: 115
-        width: 61
-        height: 38
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a2845f0974af06a4191f9c3fb89345e0
-      internalID: -375521797
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GUI 1_6
-      rect:
-        serializedVersion: 2
-        x: 723
-        y: 395
-        width: 261
-        height: 80
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e48e75fd0dbde4d4a9caadb3b4f89e25
-      internalID: -1384092753
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GUI 1_7
-      rect:
-        serializedVersion: 2
-        x: 53
-        y: 33
-        width: 85
-        height: 51
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 454d9fbfd6ef22f429446c50947c2caa
-      internalID: 507020946
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GUI 1_8
-      rect:
-        serializedVersion: 2
-        x: 142
-        y: 36
-        width: 83
-        height: 49
+        x: 25
+        y: 162
+        width: 70
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,8 +119,176 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fe1fbc3e39adeb41aa254b31dac26ed
-      internalID: -1425114751
+      spriteID: 85191094aee91274c839ca5acc731265
+      internalID: 601315682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Hearth_5
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 256
+        width: 69
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f418e527a345bcd4883a6cd09769e9ef
+      internalID: 769634672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Hearth_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 256
+        width: 69
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076dd3883a15bac42a5f2541d5748dca
+      internalID: 243079948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Hearth_3
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 256
+        width: 70
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a361ffa0673cc0c4e8506bf90c3c0187
+      internalID: 944671026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Hearth_8
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 256
+        width: 105
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834d1cf662cb5cd4a8cdfbfb096dadb9
+      internalID: 1179353324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Hearth_4
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 326
+        width: 72
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d266ab659fdf8940a66651c6ba48cdd
+      internalID: 2002539201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Hearth_6
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 326
+        width: 76
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e1565ef23893e5439d0f0b35865b187
+      internalID: 1042290038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Hearth_7
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 327
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd26b04817411f041bcc9fe3bb5f9e83
+      internalID: -200139724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Hearth_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 326
+        width: 73
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1beaeed479b7da84ea5581fddf1dda5f
+      internalID: 671533089
       vertices: []
       indices: 
       edges: []
@@ -304,15 +304,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      GUI 1_0: 597972213
-      GUI 1_1: 260346995
-      GUI 1_2: -605757030
-      GUI 1_3: 1436313084
-      GUI 1_4: 341598283
-      GUI 1_5: -375521797
-      GUI 1_6: -1384092753
-      GUI 1_7: 507020946
-      GUI 1_8: -1425114751
+      Pixel Hearth_0: 601315682
+      Pixel Hearth_1: 671533089
+      Pixel Hearth_2: 243079948
+      Pixel Hearth_3: 944671026
+      Pixel Hearth_4: 2002539201
+      Pixel Hearth_5: 769634672
+      Pixel Hearth_6: 1042290038
+      Pixel Hearth_7: -200139724
+      Pixel Hearth_8: 1179353324
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

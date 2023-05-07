@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 
 public class Item : MonoBehaviour
@@ -36,17 +37,17 @@ public class Item : MonoBehaviour
         {
             case itemType.ExtraBomb:
                 {
-                    Debug.Log("Bombs placed by character is increased by 1");
+                    character.GetComponent<BombController>().AddBomb();
                     break;
                 }
             case itemType.IncreaseExplosion:
                 {
-                    Debug.Log("Bombs placed by character are given an explosion boost");
+                    character.GetComponent<BombController>().explosionRadius++;
                     break;
                 }
             case itemType.SpeedUp:
                 {
-                    Debug.Log("Character has been sped up");
+                    character.GetComponent<PlayerController>().moveSpeed++;   
                     break;
                 }
         }
