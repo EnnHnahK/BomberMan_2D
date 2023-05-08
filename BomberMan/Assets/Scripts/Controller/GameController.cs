@@ -7,7 +7,7 @@ public class GameController : MonoBehaviour
     public IEnumerator Level(System.Action action)
     {
         //statusPanel.SetActive(true);
-        float introTimer = 1f;
+        float introTimer = 2f;
         while (introTimer > 0)
         {
             introTimer -= Time.deltaTime;

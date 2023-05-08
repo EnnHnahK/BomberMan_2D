@@ -25,25 +25,30 @@ public class PlayerController : MonoBehaviour,IDamage
         if (Input.GetKey(KeyCode.A))
         {
             setDirection(Vector2.left, spriderRenderLeft);
+            GetComponent<AudioSource>().UnPause();
         }
         else if (Input.GetKey(KeyCode.D))
         {
             setDirection(Vector2.right, spriderRenderRight);
+            GetComponent<AudioSource>().UnPause();
 
         }
         else if (Input.GetKey(KeyCode.W))
         {
             setDirection(Vector2.up, spriderRenderUp);
+            GetComponent<AudioSource>().UnPause();
 
         }
         else if (Input.GetKey(KeyCode.S))
         {
             setDirection(Vector2.down, spriderRenderDown);
+            GetComponent<AudioSource>().UnPause();
 
         }
         else
         {
             setDirection(Vector2.zero, activesprider);
+            GetComponent<AudioSource>().Pause();
         }
     }
     private void FixedUpdate()

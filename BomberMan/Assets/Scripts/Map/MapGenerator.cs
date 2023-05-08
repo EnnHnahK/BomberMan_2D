@@ -24,7 +24,6 @@ public class MapGenerator : IMapGenerator
     public GameObject[,] mapCells { get; set; }
     public GameObject door { get; private set; }
 
-
     IPlayerSpawner playerSpawner;
     IEnemySpawner enemySpawner;
 
@@ -173,7 +172,7 @@ public class MapGenerator : IMapGenerator
     {
         for (int i = 0; i < GameManager.instance.enemyCount; i++)
         {
-            int num = Random.Range(0, emptyCells.Count);
+            int num = Random.Range(5, emptyCells.Count);
             Vector2 spawnPos = emptyCells[num];
             enemySpawner.SpawnEnemy(spawnPos);
             emptyCells.Remove(spawnPos);

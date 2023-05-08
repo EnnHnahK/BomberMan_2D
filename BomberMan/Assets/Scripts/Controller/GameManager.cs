@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
 
     public Transform transformPlayer;
     public GameObject playerObject;
-    private float timeLoading = 4f;
+    private float timeLoading = 5f;
     public GameObject levelCanvas;
     public TextMeshProUGUI textCanvas;
 
@@ -79,7 +79,7 @@ public class GameManager : MonoBehaviour
             playerObject = GameObject.FindWithTag("Player");
             if (playerObject == null)
             {
-                camFollowPlayer.m_Follow = null;
+                camFollowPlayer.m_Follow = null;          
                 GameOver();
             }
             if (playerObject != null && camCount == 0)
@@ -91,6 +91,7 @@ public class GameManager : MonoBehaviour
             }
 
         }
+        
 
         timeLoading -= Time.deltaTime;
     }

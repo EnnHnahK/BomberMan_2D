@@ -75,7 +75,7 @@ public class BombController : MonoBehaviour
 
         Explode(position, direction, length - 1);
     }
-
+    
     private void clearZone(Vector2 position)
     {
         GameObject cell = mapProcessing.GetCellAtPosition(Vector2Int.FloorToInt(position));

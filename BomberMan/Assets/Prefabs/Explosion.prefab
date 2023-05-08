@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1068914042546234331}
   - component: {fileID: 1068914042546234330}
   - component: {fileID: -9034809489735153865}
+  - component: {fileID: 2548685367910200265}
   m_Layer: 0
   m_Name: Explosion
   m_TagString: Untagged
@@ -99,6 +100,102 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!82 &2548685367910200265
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068914042546234329}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 95528e2a667406043950506516bb8781, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.8
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1068914043020377590
 GameObject:
   m_ObjectHideFlags: 0
@@ -197,15 +294,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   idleSprite: {fileID: 426275911, guid: dc10450cd72fc40429a5381e20e042a5, type: 3}
-  animation:
-  - {fileID: 426275911, guid: dc10450cd72fc40429a5381e20e042a5, type: 3}
-  - {fileID: -604984177, guid: dc10450cd72fc40429a5381e20e042a5, type: 3}
-  - {fileID: 1942743596, guid: dc10450cd72fc40429a5381e20e042a5, type: 3}
-  - {fileID: -1785761476, guid: dc10450cd72fc40429a5381e20e042a5, type: 3}
-  - {fileID: 862952264, guid: dc10450cd72fc40429a5381e20e042a5, type: 3}
-  - {fileID: 6637397, guid: dc10450cd72fc40429a5381e20e042a5, type: 3}
-  - {fileID: 485801323, guid: dc10450cd72fc40429a5381e20e042a5, type: 3}
-  - {fileID: 642590337, guid: dc10450cd72fc40429a5381e20e042a5, type: 3}
+  animations: []
   animationTime: 0.25
   loop: 1
   idle: 0
@@ -307,15 +396,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   idleSprite: {fileID: -898608483, guid: 342078cc8f6511245b3085d8feaceae1, type: 3}
-  animation:
-  - {fileID: -898608483, guid: 342078cc8f6511245b3085d8feaceae1, type: 3}
-  - {fileID: 306804777, guid: 342078cc8f6511245b3085d8feaceae1, type: 3}
-  - {fileID: -1865949858, guid: 342078cc8f6511245b3085d8feaceae1, type: 3}
-  - {fileID: -1543488401, guid: 342078cc8f6511245b3085d8feaceae1, type: 3}
-  - {fileID: 562665147, guid: 342078cc8f6511245b3085d8feaceae1, type: 3}
-  - {fileID: 1264502250, guid: 342078cc8f6511245b3085d8feaceae1, type: 3}
-  - {fileID: -1635003360, guid: 342078cc8f6511245b3085d8feaceae1, type: 3}
-  - {fileID: 1430596236, guid: 342078cc8f6511245b3085d8feaceae1, type: 3}
+  animations: []
   animationTime: 0.25
   loop: 1
   idle: 0
@@ -417,15 +498,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   idleSprite: {fileID: 158006613, guid: 0bc0bb175926cdc43bc9182664a545b4, type: 3}
-  animation:
-  - {fileID: 158006613, guid: 0bc0bb175926cdc43bc9182664a545b4, type: 3}
-  - {fileID: -1421347887, guid: 0bc0bb175926cdc43bc9182664a545b4, type: 3}
-  - {fileID: -613088477, guid: 0bc0bb175926cdc43bc9182664a545b4, type: 3}
-  - {fileID: -75946310, guid: 0bc0bb175926cdc43bc9182664a545b4, type: 3}
-  - {fileID: 864898305, guid: 0bc0bb175926cdc43bc9182664a545b4, type: 3}
-  - {fileID: 656797243, guid: 0bc0bb175926cdc43bc9182664a545b4, type: 3}
-  - {fileID: -663751693, guid: 0bc0bb175926cdc43bc9182664a545b4, type: 3}
-  - {fileID: -1738427779, guid: 0bc0bb175926cdc43bc9182664a545b4, type: 3}
+  animations: []
   animationTime: 0.25
   loop: 1
   idle: 0
