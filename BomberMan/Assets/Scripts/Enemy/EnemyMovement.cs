@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour, IDamage
 {
+    public uint enemyDamage = 0;
     [SerializeField]
     private float speed = 0.1f;
     private Transform enemySprite;

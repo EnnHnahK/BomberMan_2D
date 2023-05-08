@@ -13,12 +13,12 @@ public class PlayerController : MonoBehaviour,IDamage
     public AnimatorController spriderRenderLeft;
     private AnimatorController activesprider;
     public new Rigidbody2D rigidbody { get; private set; }
+
     public void Awake()
     {
         rigidbody = GetComponent<Rigidbody2D>();
-        activesprider = spriderRenderDown;
+        activesprider = spriderRenderDown;  
     }
-
     // Update is called once per frame
     void Update()
     {
@@ -68,10 +68,10 @@ public class PlayerController : MonoBehaviour,IDamage
     {
         if (collision.gameObject.GetComponent<EnemyMovement>())
             Damage();
-        else if (collision.gameObject.GetComponent<Door>())
+        else if (collision.gameObject.tag == "Door")
         {
             Debug.Log("Next Level");
-            GameManager.instance.GameStatus(true);
+            GameManager.instance.Win();
         }
     }
     public void Damage()

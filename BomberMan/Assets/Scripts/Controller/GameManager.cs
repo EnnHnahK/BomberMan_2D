@@ -8,9 +8,11 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private Vector2Int _gridSize;
 
+    public int level;
+
     public Transform transformPlayer;
     public GameObject playerObject;
-    private float timeLoading = 5f;
+    private float timeLoading = 4f;
     public GameObject levelCanvas;
     public TextMeshProUGUI textCanvas;
 
@@ -91,12 +93,12 @@ public class GameManager : MonoBehaviour
         }
 
         timeLoading -= Time.deltaTime;
-
     }
     public void GameReady()
     {
         StartCoroutine(gameController.Level(ServiceLocator.GetService<IMapGenerator>().GenerateMap));
     }
+
     public void RestartGame()
     {
         StartCoroutine(gameController.Level(() =>
@@ -117,5 +119,9 @@ public class GameManager : MonoBehaviour
     public void UpdateScore()
     {
         scoreUpdate?.Invoke();
+    }
+    public void Win()
+    {
+        PlayerPrefs.SetInt("levelReached", level + 1);
     }
 }

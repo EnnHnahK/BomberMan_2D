@@ -13,7 +13,7 @@ public class LevelSelect : MonoBehaviour
         {
             textButtons[i].text = levelButtons[i].GetComponentInChildren<TextMeshProUGUI>().text;
         }
-        int levelReached = PlayerPrefs.GetInt("levelReached", 1);
+        int levelReached = PlayerPrefs.GetInt("levelReached");
 
         for (int i = 0; i < levelButtons.Length; i++)
         {

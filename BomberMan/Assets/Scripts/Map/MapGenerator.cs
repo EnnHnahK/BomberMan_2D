@@ -8,6 +8,7 @@ public interface IMapGenerator
     GameObject[,] mapCells { get; set; }
     void InitializeLevelController(Vector2Int mapSize, GameObject _brick, GameObject _block, GameObject _doorPrefab, GameObject _floorPrefab);
     void GenerateMap();
+    void GenerateDoor();
 }
 public class MapGenerator : IMapGenerator
 {
@@ -137,6 +138,11 @@ public class MapGenerator : IMapGenerator
             }
         }
     }
+    public void GenerateDoor()
+    {
+        Vector2 doorTransform = new Vector2(Random.Range(1, mapHeight), Random.Range(1, mapWidth));
+        MonoBehaviour.Instantiate(doorPrefab, doorTransform, Quaternion.identity, mapParent.transform);
+    }
     private void SpawnPlayer()
     {
         Vector2 playerSpawnPos = new Vector2(1, mapHeight);
@@ -156,10 +162,9 @@ public class MapGenerator : IMapGenerator
         {
             int cellNumber = Random.Range(0, emptyCells.Count);
             Vector2Int vectorIndex = Vector2Int.FloorToInt(emptyCells[cellNumber]);
-            Debug.Log(" " + vectorIndex);
             GameObject brickGameobject = mapCells[vectorIndex.x, vectorIndex.y] = MonoBehaviour.Instantiate(brickPrefab, emptyCells[cellNumber], Quaternion.identity, mapParent.transform);
-            if (i == brickCount - 1)
-                door = MonoBehaviour.Instantiate(doorPrefab, brickGameobject.transform.position, Quaternion.identity, mapParent.transform);
+            /*if (i == brickCount - 1)
+                door = MonoBehaviour.Instantiate(doorPrefab, brickGameobject.transform.position, Quaternion.identity, mapParent.transform);*/
             emptyCells.Remove(vectorIndex);
         }
     }

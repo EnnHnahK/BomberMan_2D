@@ -6,6 +6,8 @@ TagManager:
   tags:
   - BOT
   - Floor
+  - GameManager
+  - Door
   layers:
   - Default
   - TransparentFX

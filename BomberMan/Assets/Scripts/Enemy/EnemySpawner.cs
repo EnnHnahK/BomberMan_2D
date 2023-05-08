@@ -39,7 +39,7 @@ public class EnemySpawner : IEnemySpawner
         GameManager.instance.UpdateScore();
         if (enemies.Count == 0)
         {
-            ServiceLocator.GetService<IMapProcessing>().EnableHomePortal();
+            ServiceLocator.GetService<IMapGenerator>().GenerateDoor();
             allEnemyDied = true;
             return;
         }

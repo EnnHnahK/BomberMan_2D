@@ -90,6 +90,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   direction: {x: 0, y: -1}
+  isAlive: 1
   spriderRenderUp: {fileID: 5256503989997581728}
   spriderRenderRight: {fileID: 5256503989880383653}
   spriderRenderDown: {fileID: 5256503989612763171}
@@ -110,6 +111,7 @@ MonoBehaviour:
   bombPrefab: {fileID: 8746128228044995542, guid: a807414f44a48fd4f93f81045e36cdfb, type: 3}
   bombTime: 2
   bombAmount: 1
+  bombsRemaining: 0
   explosionPrefab: {fileID: 1068914042546234330, guid: cef999ee09fb31745afd6a965292c084, type: 3}
   explosionDuration: 1
   explosionRadius: 1

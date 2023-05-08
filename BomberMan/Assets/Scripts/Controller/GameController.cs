@@ -10,8 +10,6 @@ public class GameController : MonoBehaviour
         float introTimer = 1f;
         while (introTimer > 0)
         {
-            //gameStartCountDown.text = "STARTS IN:" + ((int)introTimer).ToString();
-            //levelText.text = "LEVEL:" + level;
             introTimer -= Time.deltaTime;
             yield return null;
         }

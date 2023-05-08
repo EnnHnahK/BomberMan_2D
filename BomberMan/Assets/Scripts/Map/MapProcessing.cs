@@ -5,7 +5,6 @@ public interface IMapProcessing
     void FillGrid(Vector2Int _pos, GameObject cell);
     void EmptyGrid(Vector2Int _pos);
     GameObject GetCellAtPosition(Vector2Int _pos);
-    void EnableHomePortal();
 }
 
 public class MapProcessing : IMapProcessing
@@ -38,10 +37,6 @@ public class MapProcessing : IMapProcessing
 
 
         return gameObject;
-    }
-    public void EnableHomePortal()
-    {
-        mapGenerator.door.GetComponent<CircleCollider2D>().isTrigger = false;
     }
 
 }

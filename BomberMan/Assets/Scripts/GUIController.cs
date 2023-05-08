@@ -1,10 +1,9 @@
 using TMPro;
 using UnityEngine;
-using UnityEngine.TextCore.Text;
+using UnityEngine.SceneManagement;
 
 public class GUIController : MonoBehaviour
 {
-    private int level = 1;
     private int score = 0;
 
     [SerializeField]
@@ -29,12 +28,16 @@ public class GUIController : MonoBehaviour
     {
         GameObject gameObject = GameObject.FindWithTag("Player");
         if(gameObject != null) { 
-            bombAmount = gameObject.GetComponent<BombController>().bombAmount;
+            bombAmount = gameObject.GetComponent<BombController>().bombsRemaining;
             bombText.text = "" + bombAmount;
         }
     }
     private void Update()
     {
         UpdateBomb();
+    }
+    public void backMainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 }
