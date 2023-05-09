@@ -17,6 +17,8 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI textCanvas;
 
     [SerializeField]
+    private GameObject nextButton;
+    [SerializeField]
     private GameObject brickPrefab;
     [SerializeField]
     private GameObject blockPrefab;
@@ -123,6 +125,9 @@ public class GameManager : MonoBehaviour
     }
     public void Win()
     {
+        textCanvas.text = "Victory";
         PlayerPrefs.SetInt("levelReached", level + 1);
+        levelCanvas.SetActive(true);
+        nextButton.SetActive(true);
     }
 }

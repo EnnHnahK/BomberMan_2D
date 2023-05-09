@@ -14,7 +14,17 @@ public class MainMenu : MonoBehaviour
     }
     public void Delete()
     {
+        Debug.Log(PlayerPrefs.GetFloat("levelReached"));
         PlayerPrefs.DeleteAll();
+        Debug.Log(PlayerPrefs.GetFloat("levelReached"));
+    }
+    public void devNoti()
+    {
+        SceneManager.LoadScene("Dev");
+    }
+    public void backMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 
 }

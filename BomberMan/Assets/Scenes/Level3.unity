@@ -4144,7 +4144,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1
+  m_text: 3
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: be4cf3a7488e4dd40bd60b6cdd94cdfc, type: 2}
   m_sharedMaterial: {fileID: -2158563358880914934, guid: be4cf3a7488e4dd40bd60b6cdd94cdfc, type: 2}
@@ -6850,7 +6850,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79bfb8d54b8aa1b4b9451e0fe3e7c088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gridSize: {x: 10, y: 10}
+  _gridSize: {x: 10, y: 15}
   level: 1
   transformPlayer: {fileID: 0}
   playerObject: {fileID: 0}
@@ -6862,7 +6862,7 @@ MonoBehaviour:
   doorPrefab: {fileID: 864574449806708706, guid: 1dad4beac0b7d9d4192dd221feae5e71, type: 3}
   floorPrefab: {fileID: 1000459170311492031, guid: 3e71387b136668249a25182a08655624, type: 3}
   camFollowPlayer: {fileID: 435105643}
-  enemyCount: 4
+  enemyCount: 6
   enemyPrefab: {fileID: 1555942157877025976, guid: 7c5e14b5d001d024eb6ab51a05ecbb50, type: 3}
   playerPrefab: {fileID: 5256503988652639882, guid: dd892f8eaac23c44fbac814af8dd219c, type: 3}
   gameController: {fileID: 1706945443}
@@ -10218,7 +10218,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Level 1
+  m_text: Level 3
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: be4cf3a7488e4dd40bd60b6cdd94cdfc, type: 2}
   m_sharedMaterial: {fileID: -2158563358880914934, guid: be4cf3a7488e4dd40bd60b6cdd94cdfc, type: 2}

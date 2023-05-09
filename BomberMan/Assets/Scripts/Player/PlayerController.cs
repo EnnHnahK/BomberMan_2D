@@ -19,7 +19,6 @@ public class PlayerController : MonoBehaviour,IDamage
         rigidbody = GetComponent<Rigidbody2D>();
         activesprider = spriderRenderDown;  
     }
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKey(KeyCode.A))
